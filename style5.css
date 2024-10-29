@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body {
+    background-color:black;
+    font-family: 'Fredoka', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    
+    
+}
+.Navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  
+}
+
+header .logo {
+    display: flex;
+    align-items: center; 
+}
+
+header .logo img {
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+    
+}
+
+header .logo span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white; 
+}
+
+header .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    
+    
+}
+
+header .nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    
+    
+}
+
+header .nav-links li a:hover {
+    background-color:  #ff3333;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+   
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.footer p {
+    color: white;
+    margin: 0;
+    font-size: 14px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hero {
+    background-color: #ff3333;
+    padding: 30px 20px;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin-top: 20px; /* Adjusted margin */
+    max-width: 1200px;
+    margin-left: auto; /* Center the hero section */
+    margin-right: auto; /* Center the hero section */
+    
+}
+.hero img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+  }
+
+  .contact-info .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: #0a0514;
+  }
+
+  .contact-info .info-item i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .contact-info a {
+    color: #0a0514;
+    text-decoration: none;
+  }
+
+  .contact-info a:hover {
+    color: black;
+  }
+
+  .contact-info .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .contact-info .social-icons a {
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+
+span{
+    margin-left: 10px;
+}
+div a{
+    margin-left: 10px;
+}
